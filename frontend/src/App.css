@@ -1,0 +1,959 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Raleway";
+  
+  
+
+  
+}
+
+                                      /* App background  */
+.main{
+  background-image: url('/public/images/flat-lay-arrangement-medical-objects-with-empty-frame.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 100%; 
+  margin: 0;
+}
+
+.about{
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  min-height: 100vh; 
+  width: 100%; 
+  margin: 0; 
+
+
+}
+.intro{
+  background-image: url('/public/images/medical-desk-arrangement-with-copy-space-green-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  width: 100%; 
+  margin: 0; 
+
+
+}
+.chatbody-main{
+  background-image: url('/public/images/medical-desk-arrangement-with-copy-space-green-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  width: 100%; 
+  margin: 0; 
+}
+
+
+
+
+/* Navbar Styling */
+
+.navbar{
+  background-color: white;
+}
+
+.navbar .nav-logo{
+  filter: invert(1);
+
+}
+
+
+
+
+
+
+
+
+
+.navbar li{
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+
+}
+.navbar li .link{
+  color:  black;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  
+
+}
+.navbar li:hover{
+  background-color: #b6d8cb;
+  border: 3px solid white;
+
+}
+.navbar li a:hover{
+  color: white
+}
+
+
+
+
+/* Hero Section Styling */
+.hero-section{
+  text-align: center;
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  opacity: 0;
+  transform: translateX(-100%); 
+  animation: slideIn 0.7s ease-out forwards;
+  justify-content: center;
+  
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.hero-section h1{
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 270px;
+  color: rgb(58, 58, 57);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+  .hero-section span{
+    color: #fdfdfd;
+    text-shadow: none;
+  }
+  .hero-section p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: rgb(58, 58, 57);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .btn{
+    margin-top: 20px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    border: 3px solid;
+    font-weight: 600;
+    width: 250px;
+  }
+  .hero-section .btn2{
+    margin-left: 20px;
+  }
+  
+ .btn:hover{
+  background-color: white;
+  border: 3px solid white;
+  color: #b6d8cb;
+}
+  
+
+
+
+  /* Intro Styling */
+  .intro-body{
+
+    align-items: center;
+    min-height: 100vh;
+    
+    opacity: 0;
+    transform: translateX(-100%); 
+    animation: slideIn 0.7s ease-out forwards;
+    
+  }
+  
+  
+  
+  
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .intro .intro-body h1{
+    font-size: 70px;
+    font-weight: 900;
+    padding-top: 100px;
+    color: #33373a;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .intro .intro-body h2{
+      font-size: 30px;
+      font-weight: 600;
+      padding-top: 50px;
+      color: #33373a;
+      text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .intro .intro-body p{
+      color: #33373a;
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    .intro span{
+      color: #33373a;
+    }
+    .intro .intro-bottom h1{
+      font-weight: 800;
+    }
+    .intro .intro-bottom li{
+      font-weight: 600;
+    }
+    .intro .intro-bottom hr{
+      width: 50%;
+    }
+
+
+
+
+
+
+
+
+    
+  /* About Styling */
+  .about-body{
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    opacity: 0;
+    transform: translateX(-100%); 
+    animation: slideIn 0.7s ease-out forwards;
+    
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+
+  /* Chatbot Styling */
+.chatbot-body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 0.7s ease-out forwards;
+}
+
+.modal-body {
+  width: 50%;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.chatbot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.chatbot-container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+  transition: all 0.4s ease;
+  max-height: auto; /* Default height */
+  
+  
+}
+
+.chatbot-container h1 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+               rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.username {
+  color: black;
+}
+
+.chatbot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.symptom-textarea {
+  width: 100%;
+  min-height: 2.5rem;
+  resize: none;
+  overflow: hidden;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.symptom-textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.chatbot-wrapper .btn {
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.submit-btn {
+  background-color: transparent;
+  color: black;
+  border: black 2px solid !important;
+}
+
+.clear-btn {
+  background-color: transparent;
+  color: black;
+  border: black 2px solid !important;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: 2px solid red !important;
+  color: red;
+}
+
+.logout-btn:hover {
+  background-color: red !important;
+  color: white;
+}
+
+.chatbot-wrapper .btn:hover {
+  background-color: black;
+  color: white;
+  border: black 2px solid;
+}
+
+/* Slide-up & Fade-in Animation */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.response-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-left: 4px solid #b6d8cb;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-align: left;
+  
+  animation: slideIn 0.5s ease forwards;
+}
+
+.predicted-disease {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.error-text {
+  color: red;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.chatbody-main {
+  position: relative;
+}
+
+  
+  .history-slider {
+    position: absolute;
+    top: 0;
+    left: -320px;
+    width: 320px;
+    height: 100%;
+    background: transparent;
+    color: #fff;
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .history-slider.show {
+    left: 0;
+  }
+  
+  .history-slider h3 {
+    color: black;
+  }
+  
+  .history-slider .chat-entry {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 1100;
+    font-weight: bolder;
+  }
+
+  .history-btn:hover{
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    transition: 0.3s;
+  }
+  
+
+
+/* Responsive styles */
+@media (max-width: 500px) {
+  .chatbot-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+}
+
+
+  /* Registration Styling */
+
+ .register {
+  background-image: url('/public/images/medical-desk-arrangement-with-copy-space-green-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  max-width: 500px;
+  height: auto;
+  padding: 40px 30px;
+  margin: 80px auto 50px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease;
+}
+
+.register:hover {
+  transform: scale(1.01);
+}
+
+.logo {
+  filter: invert(1);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form .form-control {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form .form-control:focus {
+  border-color: #b6d8cb;
+  box-shadow: 0 0 10px rgba(182, 216, 203, 0.8);
+  outline: none;
+}
+
+.form .form-control::placeholder {
+  font-size: 13px;
+  color: #555;
+  opacity: 0.8;
+}
+
+.register h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #020202;
+  font-weight: 800;
+  text-align: center;
+}
+
+.register p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register .btn {
+  display: block;
+  margin: 30px auto 10px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  width: 180px;
+  background-color: #030303;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register .btn:hover {
+  background-color: transparent;
+  color: black;
+  border-color: 1px solid black;
+}
+
+.register hr {
+  width: 60%;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.register a {
+  color: #004d40;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .register {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .register h1 {
+    font-size: 24px;
+  }
+
+  .form .form-control {
+    font-size: 13px;
+  }
+
+  .register .btn {
+    width: 100%;
+  }
+}
+
+  
+/* Login Styling */
+.login {
+  background-image: url('/public/images/medical-desk-arrangement-with-copy-space-green-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  max-width: 500px;
+  height: auto;
+  padding: 40px 30px;
+  margin: 80px auto 50px;
+  background-color: rgba(255, 255, 255, 0.85); /* Light overlay for readability */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease;
+}
+
+.login:hover {
+  transform: scale(1.01);
+}
+
+.login h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+
+.login p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login .btn {
+  display: block;
+  margin: 30px auto 10px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-weight: 600;
+  width: 180px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login .btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+
+}
+
+.login hr {
+  width: 60%;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.login a {
+  color: #004d40;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #555;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .login {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .login h1 {
+    font-size: 24px;
+  }
+
+  .login .btn {
+    width: 100%;
+  }
+
+  .forgot-password {
+    text-align: center;
+  }
+}
+
+
+/* About-page Styling */
+
+
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-body {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-role {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.team-bio {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .hero-section .btn2{
+    margin-right: 20px;
+  }
+  .hero-section h1{
+    padding-top: 350px;
+    font-size: 50px;
+  }
+  .hero-section p{
+    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section .btn2{
+    margin-left: 0px !important;
+  }
+ 
+}
+
+
+@media (max-width: 453px) {
+   .hero-section h1{
+    padding-top: 350px;
+    font-size: 40px;
+  }
+  .hero-section p{
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  
+ 
+}
+
+
+@media (max-width: 768px) {
+  .modal-body{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section{
+    padding-bottom: 50px;
+    min-height: 150vh;
+  }
+ 
+ 
+}
+
+@media (max-width: 768px) {
+  .intro-body{
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar li .link{
+    margin-left: 40%;
+  }
+}
+@media (max-width: 990px) {
+  .register{
+    width: 90%;
+  }
+  .login{
+    width: 90%;
+  }
+}
+@media (max-width: 915px) {
+  .chatbot h1{
+    padding-top: 170px;
+    font-size: 50px;
+  }
+
+}
